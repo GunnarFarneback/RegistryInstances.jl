@@ -3,6 +3,7 @@ using TOML
 using Tar
 using Pkg.Types: VersionSpec, VersionRange
 using LazilyInitializedFields
+using Pkg.PlatformEngines: exe7z
 
 # The content of a registry is assumed to be constant during the
 # lifetime of a `Registry`. Create a new `Registry` if you want to have
