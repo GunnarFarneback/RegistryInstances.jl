@@ -35,8 +35,15 @@ from `Pkg` on August 12, 2021.
 
 The public API consists of the structs
 
-* to be determined
+* `RegistryInstance`
+* `PkgInfo`
+* `PkgEntry`
 
 and the functions
 
-* to be determined
+* `reachable_registries`
+* `registry_info`
+* `compat_info`
+* `treehash`
+* `uuids_from_name`
+* `isyanked`
